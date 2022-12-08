@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    margin-top: 100px;
+}
+#header_container{
+    background-color: white;
+    width: 100%;
+
+}
+#logo img{
+    width: 250px;
+    margin-top: -80px;
+    margin-bottom: -100px;
+
+}
+
+.list_item{
+    background-color: black;
+    width: 100%;
+   
+    
+}
+.list_item ul li{
+    list-style: none;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 40px;
+    justify-content: center;
+    
+}
+.list_item ul li a{
+    color: white;
+    font-size: 20px;
+   
+}
+.list_item ul{
+    text-align: center;
+}
+.search_box{
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 39%;
+    justify-content: center;
+
+}
+.search_box form input{
+    padding: 7px;
+    font-size: 20px;
+    background-color: #E0E0E0;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.search_box form button{
+    float: right;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    font-size: 20px;
+    padding: 7px;
+    border: 0;
+    border: none;
+}
+#header{
+    display: flex;
+}
+.news_slideshow{
+    
+    background-color: white;
+}
+.standing{
+    padding: 5px;
+    background-color: black;
+    border-radius: 1px;
+
+}
+.standing a{
+    color: #ffff;
+    font-size: 20px;
+    
+
+}
+.standing a b{
+    margin-left: 10px;
+    font-size: 20px; 
+}
+.standing select{
+    display: flex;
+    margin-left: 225px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+
+.body_container{
+    width: 1350px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.news_container{
+    width: 70%;
+    display: inline-block;
+    align-items: flex-start;
+}
+.table_container{
+    width: 30%;
+    display: inline-block;
+    align-items: flex-start;
+    
+}
+.table_info{
+    display: inline-block;
+}
+.table_info td{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.table{
+    margin-top: 20px;
+    text-align: center;
+}
+.navbar-brand img{
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+
+
+
+
+
+
+
+
+
