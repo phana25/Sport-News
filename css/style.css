@@ -7,91 +7,28 @@ body{
     width: 100%;
 
 }
-#logo img{
-    width: 250px;
-    margin-top: -80px;
-    margin-bottom: -100px;
-
-}
-
-.list_item{
-    background-color: black;
-    width: 100%;
-   
-    
-}
-.list_item ul li{
-    list-style: none;
-    line-height: 50px;
-    display: inline-block;
-    margin-right: 40px;
-    justify-content: center;
-    
-}
-.list_item ul li a{
-    color: white;
-    font-size: 20px;
-   
-}
-.list_item ul{
-    text-align: center;
-}
-.search_box{
-    margin-top: 25px;
-    position: absolute;
-    margin-left: 39%;
-    justify-content: center;
-
-}
-.search_box form input{
-    padding: 7px;
-    font-size: 20px;
-    background-color: #E0E0E0;
-    border-radius: 5px 0 0 5px;
-    border: none;
-}
-.search_box form button{
-    float: right;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 5px 5px 0;
-    position: relative;
-    font-size: 20px;
-    padding: 7px;
-    border: 0;
-    border: none;
-}
-#header{
-    display: flex;
-}
 .news_slideshow{
-    
     background-color: white;
 }
 .standing{
     padding: 5px;
     background-color: black;
     border-radius: 1px;
-
+    color: white;
+    font-size: 20px;
 }
 .standing a{
-    color: #ffff;
-    font-size: 20px;
-    
+    margin-top: 10px;  
+}
 
-}
-.standing a b{
-    margin-left: 10px;
-    font-size: 20px; 
-}
 .standing select{
     display: flex;
     margin-left: 225px;
-    margin-top: -25px;
-    font-size: 20px;
+    margin-top: -30px;
 }
-
+.standing_text b{
+    margin-top: -5px;
+}
 
 .body_container{
     width: 1350px;
