@@ -9,6 +9,12 @@ body{
 }
 .news_slideshow{
     background-color: white;
+    position: relative;
+}
+.news_slideshow_title{
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 .standing{
     padding: 5px;
@@ -16,18 +22,30 @@ body{
     border-radius: 1px;
     color: white;
     font-size: 20px;
+    
 }
 .standing a{
     margin-top: 10px;  
 }
+.sta_com{
+    margin-left: -0px;
+}
 
 .standing select{
     display: flex;
-    margin-left: 225px;
+    margin-left: 220px;
     margin-top: -30px;
 }
 .standing_text b{
     margin-top: -5px;
+}
+.latest_new{
+    padding: 5px;
+    background-color: black;
+    border-radius: 1px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .body_container{
@@ -38,6 +56,14 @@ body{
     align-items: flex-start;
     margin-top: 20px;
 }
+.container-xxl{
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+}
 .news_container{
     width: 70%;
     display: inline-block;
@@ -45,8 +71,10 @@ body{
 }
 .table_container{
     width: 30%;
-    display: inline-block;
+    float: right;
     align-items: flex-start;
+    
+    margin-left: 30px;
     
 }
 .table_info{
