@@ -1,511 +1,655 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sport News</title>
-        <link rel="website icon" type="png" href="./images/Final Project logo.png">
-        <link rel="stylesheet" href="./css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
-    </head>
-    <body>
-        <div id="scrollUp" style="display: none;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
-              </svg>
-        </div>
-        <!-- <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
+  <head>
+    <title>Sport News</title>
+    <link
+      rel="website icon"
+      type="png"
+      href="./images/Final Project logo.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="scrollUp" style="display: none">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-chevron-up"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+        />
+      </svg>
+    </div>
+    <!-- <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
             
             <i class="fa fa-angle-up"></i>
           </button> -->
-        <!-- Full Container -->
-        
-            <!-- Header -->
-            <nav class="navbar navbar-light">
-                <div class="container">
-                  <a class="navbar-brand" href="./index.html">
-                    <img src="./images/Final Project logo.png" alt="" width="250px">
-                  </a>
-                </div>
-              </nav>
-            
-        
-                <nav class="navbar sticky-top navbar-expand-lg navbar-dark " style="background-color: black">
-                    <div class="container-fluid ">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="navbar-brand" aria-current="page" href="./index.html">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="navbar-brand" href="./Football.html">Football</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="navbar-brand" href="./E-Sports.html">E-Sports</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="navbar-brand" href="./Kun_khmer.html" tabindex="-1" aria-disabled="true">Kun Khmer</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-         
-        <!--Body-->
-        <div class="container-xxl">
-            <div class="news_container">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./images/slide01.png" class="d-block w-90 img-fluid" alt="...">
-                        <div class="slide-title"></div>
-                        <div class="slide-cap-bg">
-                            <div class="carousel-captions">
-                                <p>Argentina Wins the 2022 World Cup, Defeating France</p>
-                            </div>
-                        </div>
-                        
-                      </div>
-                    
+    <!-- Full Container -->
 
-                      <div class="carousel-item">
-                        <img src="./images/slide02.png" class="d-block w-90" alt="...">
-                        <div class="slide-title"></div>
-                        <div class="slide-cap-bg">
-                            <div class="carousel-captions">
-                                <p>Argentina Wins the 2022 World Cup, Defeating France</p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./images/slide03.png" class="d-block w-90" alt="...">
-                        <div class="slide-title"></div>
-                        <div class="slide-cap-bg">
-                            <div class="carousel-captions">
-                                <p>Argentina Wins the 2022 World Cup, Defeating France</p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./images/slide04.png" class="d-block w-90" alt="...">
-                        <div class="slide-title"></div>
-                        <div class="slide-cap-bg">
-                            <div class="carousel-captions">
-                                <p>Argentina Wins the 2022 World Cup, Defeating France</p>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                <div class="latest_new">
-                    <div>
-                        <b>|</b><a> LATEST NEWS</a>
-                    </div>
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="./Football News/fb01.html">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                              </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="latest_new">
-                    <div>
-                        <b>|</b><a> FOOTBALL NEWS</a>
-                    </div>
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="latest_new">
-                    <div>
-                        <b>|</b><a> E-SPORTS NEWS</a>
-                    </div>
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="latest_new">
-                    <div>
-                        <b>|</b><a> KUN KHMER NEWS</a>
-                    </div>
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-                <div class="news-block-row">
-                    <div class="card1">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card2">
-                        <a href="">
-                            <div class="card" style="width: 27rem;">
-                                <img src="./images/slide02.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                      
-                </div>
-            </div>
-           
-            <div class="table_container">
-                <div class="standing">
-                    <div class="standing_text">
-                        <b>|</b><a> STANDING</a>
-                    </div>
-                    <div  class="sta_com">
-                        <select>
-                            <option value="1">Premier League </option>
-                            <option value="2">Laliga</option>
-                            <option value="3">League 1</option>
-                            <option value="4">Bundesliga</option>
-                            <option value="5">Serie A</option>
-                        </select>
-                    </div>
-                </div>
-                <div>
-                    <table class="table" >
-                        <thead class="table-">
-                            <tr>
-                               <th>Pos</th>
-                               <th>Team</th>
-                               <th>Pl</th>
-                               <th>GD</th>
-                               <th>Pts</th>
-                            </tr>
-                        </thead>
-                        <tbody>    
-                            <tr>
-                                <td>1</td>
-                                <td>Asernal</td>
-                                <td>14</td>
-                                <td>22</td>
-                                <td>37</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Manchester City</td>
-                                <td>14</td>
-                                <td>26</td>
-                                <td>32</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Newcastle United</td>
-                                <td>15</td>
-                                <td>18</td>
-                                <td>30</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Tottenham Hotspur</td>
-                                <td>15</td>
-                                <td>10</td>
-                                <td>29</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Manchester United</td>
-                                <td>14</td>
-                                <td>0</td>
-                                <td>26</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Liverpool</td>
-                                <td>14</td>
-                                <td>11</td>
-                                <td>22</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Brightin & Hove Albion</td>
-                                <td>14</td>
-                                <td>4</td>
-                                <td>21</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Chelsea</td>
-                                <td>14</td>
-                                <td>0</td>
-                                <td>21</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Fullham</td>
-                                <td>15</td>
-                                <td>-2</td>
-                                <td>19</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Brenford</td>
-                                <td>15</td>
-                                <td>-2</td>
-                                <td>19</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>Crystal Palace</td>
-                                <td>14</td>
-                                <td>-3</td>
-                                <td>19</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Aston Villa</td>
-                                <td>15</td>
-                                <td>-6</td>
-                                <td>18</td>
-                            </tr>
-                            <tr>
-                                <td>13</td>
-                                <td>Leicester City</td>
-                                <td>15</td>
-                                <td>0</td>
-                                <td>17</td>
-                            </tr>
-                            <tr>
-                                <td>14</td>
-                                <td>AFC Bournemouth</td>
-                                <td>15</td>
-                                <td>-14</td>
-                                <td>16</td>
-                            </tr>
-                            <tr>
-                                <td>15</td>
-                                <td>Leeds United</td>
-                                <td>14</td>
-                                <td>-4</td>
-                                <td>15</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>West Ham United</td>
-                                <td>15</td>
-                                <td>-5</td>
-                                <td>14</td>
-                            </tr>
-                            <tr>
-                                <td>17</td>
-                                <td>Everton</td>
-                                <td>15</td>
-                                <td>-6</td>
-                                <td>14</td>
-                            </tr>
-                            <tr>
-                                <td>18</td>
-                                <td>Nottingham Forest</td>
-                                <td>15</td>
-                                <td>-19</td>
-                                <td>13</td>
-                            </tr>
-                            <tr>
-                                <td>19</td>
-                                <td>Southampton</td>
-                                <td>15</td>
-                                <td>-14</td>
-                                <td>12</td>
-                            </tr>
-                            <tr>
-                                <td>20</td>
-                                <td>Woloverhamton Wanderers</td>
-                                <td>15</td>
-                                <td>-16</td>
-                                <td>10</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+    <!-- Header -->
+    <nav class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/Final Project logo.png" alt="" width="250px" />
+        </a>
+      </div>
+    </nav>
+
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      style="background-color: black"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navbar-brand" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="./Football.html">Football</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="./E-Sports.html">E-Sports</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="navbar-brand"
+                href="./Kun_khmer.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Kun Khmer</a
+              >
+            </li>
+          </ul>
         </div>
-        <script>
-            //Get the button
-              let mybutton = document.getElementById("scrollUp");
-      
-              // When the user scrolls down 20px from the top of the document, show the button
-              window.onscroll = function () {
-                scrollFunction();
-              };
-      
-              function scrollFunction() {
-                if (
-                  document.body.scrollTop > 20 ||
-                  document.documentElement.scrollTop > 20
-                ) {
-                  mybutton.style.display = "block";
-                } else {
-                  mybutton.style.display = "none";
-                }
-              }
-              // When the user clicks on the button, scroll to the top of the document
-              mybutton.addEventListener("click", backToTop);
-      
-              function backToTop() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-              }
-          </script>
-       
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
-    </body>
+      </div>
+    </nav>
+
+    <!--Body-->
+    <div class="container-xxl">
+      <div class="news_container">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/slide01.png"
+                class="d-block w-90 img-fluid"
+                alt="..."
+              />
+              <div class="slide-title"></div>
+              <div class="slide-cap-bg">
+                <div class="carousel-captions">
+                  <p>Argentina Wins the 2022 World Cup, Defeating France</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./images/slide02.png" class="d-block w-90" alt="..." />
+              <div class="slide-title"></div>
+              <div class="slide-cap-bg">
+                <div class="carousel-captions">
+                  <p>Argentina Wins the 2022 World Cup, Defeating France</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide03.png" class="d-block w-90" alt="..." />
+              <div class="slide-title"></div>
+              <div class="slide-cap-bg">
+                <div class="carousel-captions">
+                  <p>
+                    CADT Warrior win the frist cup of the CADT Football Club
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide04.png" class="d-block w-90" alt="..." />
+              <div class="slide-title"></div>
+              <div class="slide-cap-bg">
+                <div class="carousel-captions">
+                  <p>Argentina Wins the 2022 World Cup, Defeating France</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="latest_new">
+          <div><b>|</b><a> LATEST NEWS</a></div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="./Football News/fb01.html">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="latest_new">
+          <div><b>|</b><a> FOOTBALL NEWS</a></div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="latest_new">
+          <div><b>|</b><a> E-SPORTS NEWS</a></div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="latest_new">
+          <div><b>|</b><a> KUN KHMER NEWS</a></div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="news-block-row">
+          <div class="card1">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card2">
+            <a href="">
+              <div class="card" style="width: 27rem">
+                <img
+                  src="./images/slide02.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="table_container">
+        <div class="standing">
+          <div class="standing_text"><b>|</b><a> STANDING</a></div>
+          <div class="sta_com">
+            <select>
+              <option value="1">Premier League</option>
+              <option value="2">Laliga</option>
+              <option value="3">League 1</option>
+              <option value="4">Bundesliga</option>
+              <option value="5">Serie A</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <table class="table">
+            <thead class="table-">
+              <tr>
+                <th>Pos</th>
+                <th>Team</th>
+                <th>Pl</th>
+                <th>GD</th>
+                <th>Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Asernal</td>
+                <td>14</td>
+                <td>22</td>
+                <td>37</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Manchester City</td>
+                <td>14</td>
+                <td>26</td>
+                <td>32</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Newcastle United</td>
+                <td>15</td>
+                <td>18</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Tottenham Hotspur</td>
+                <td>15</td>
+                <td>10</td>
+                <td>29</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Manchester United</td>
+                <td>14</td>
+                <td>0</td>
+                <td>26</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Liverpool</td>
+                <td>14</td>
+                <td>11</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Brightin & Hove Albion</td>
+                <td>14</td>
+                <td>4</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Chelsea</td>
+                <td>14</td>
+                <td>0</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Fullham</td>
+                <td>15</td>
+                <td>-2</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Brenford</td>
+                <td>15</td>
+                <td>-2</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Crystal Palace</td>
+                <td>14</td>
+                <td>-3</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Aston Villa</td>
+                <td>15</td>
+                <td>-6</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Leicester City</td>
+                <td>15</td>
+                <td>0</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>AFC Bournemouth</td>
+                <td>15</td>
+                <td>-14</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Leeds United</td>
+                <td>14</td>
+                <td>-4</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>West Ham United</td>
+                <td>15</td>
+                <td>-5</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>Everton</td>
+                <td>15</td>
+                <td>-6</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>Nottingham Forest</td>
+                <td>15</td>
+                <td>-19</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>Southampton</td>
+                <td>15</td>
+                <td>-14</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>Woloverhamton Wanderers</td>
+                <td>15</td>
+                <td>-16</td>
+                <td>10</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script>
+      //Get the button
+      let mybutton = document.getElementById("scrollUp");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
