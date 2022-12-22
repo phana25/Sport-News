@@ -5,6 +5,7 @@ body{
 #header_container{
     background-color: white;
     width: 100%;
+    
 
 }
 .news_slideshow{
@@ -48,6 +49,14 @@ body{
     font-size: 20px;
     margin-top: 30px;
 }
+.latest_new_kk{
+    padding: 5px;
+    background-color: black;
+    border-radius: 1px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 .body_container{
     width: 1350px;
@@ -60,9 +69,9 @@ body{
 .container-xxl{
     margin: auto;
     padding: 0;
-    display: flex;
-    align-items: flex-start;
+    display: flex;    
     margin-top: 20px;
+
     
 }
 .news_container{
@@ -109,9 +118,16 @@ body{
     display: flex;
     margin-top: 30px;
 }
+
 .card2{
     margin-left: 40px;
 }
+.kk_container{
+    width: 100%;
+    display: inline-block;
+    align-items: flex-start;
+}
+
 
 
 
