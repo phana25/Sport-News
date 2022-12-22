@@ -183,6 +183,28 @@ thead{
     color: white;
 }
 
+.slide-title{
+    background-color: black;
+    
+    width: 900px;
+    height: 100px;
+    align-items: center;
+    
+    margin-top: -100px;
+    opacity: 0.5;
+}
+.carousel-captions{
+    left: 10%;
+    right: 10%;
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
 
 
 
