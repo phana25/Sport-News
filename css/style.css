@@ -178,7 +178,10 @@ body{
     display: block;
 
 }
-
+thead{
+    background-color: black;
+    color: white;
+}
 
 
 
