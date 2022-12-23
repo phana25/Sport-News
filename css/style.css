@@ -133,6 +133,13 @@ body {
 .card2 a:hover {
   color: inherit;
 }
+.col a{
+    text-decoration: none;
+    color: black; 
+}
+.col a:hover {
+    color: inherit;
+  }
 #scrollUp {
   text-align: center;
   bottom: 40px;
